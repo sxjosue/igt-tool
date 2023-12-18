@@ -11,10 +11,23 @@
     <h1>IGT TOOL</h1>
     <h2>Inteligencia do gerenciamento de transformadores</h2>
 
-    <p>Desenvolvimento de um sistema que monitore a distribuição de carga de uma empresa ou instituição</p>
-    <p>Com tal aplicação é possível verificar e corrigir problemas de sobrecarga em locais e salas, assim como apenas vizualizar o consumo de energia em cada ambiente</p>
-    <p>Desta forma torna-se aplicável para economia de energia e financeira aumentando o desempenho eficiente e seguro</p>
-    <p id="btn"> <a href="{% url 'Monitoramento' %}">Monitoramento</a> </p> <br>
-    <p> <a href="{% url 'index' %}">Home</a> </p>
+    <div id="apresentacao">
+        <span>    
+            <p>Desenvolvimento de um sistema que monitore a distribuição de carga de uma empresa ou instituição</p>
+        </span>
+
+        <span>
+            <p>Com tal aplicação é possível verificar e corrigir problemas de sobrecarga em locais e salas, assim como apenas vizualizar o consumo de energia em cada ambiente</p>
+        </span>
+
+        <span>
+            <p>Desta forma torna-se aplicável para economia de energia e financeira aumentando o desempenho eficiente e seguro</p>
+        </span>
+    </div>
+
+    <div id = "orientador">
+        <p id="btn"> <a href="{% url 'Monitoramento' %}">Monitoramento</a> </p> <br>
+        <p> <a href="{% url 'index' %}">Home</a> </p>
+    </div>
 </body>
 </html>
