@@ -8,3 +8,9 @@ def Apresentacao(request):
 
 def Monitoramento(request):
     return render(request, "monitoramento.html")
+
+def Dispositivos(request):
+    return render(request, "dispositivos.html")
+
+def Controle(request):
+    return render(request, "controle_rede.html")
